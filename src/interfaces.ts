@@ -22,6 +22,7 @@ export interface UserInfo {
   role?: string;
   impersonator?: Impersonator;
   accessToken: string;
+  accessTokenExpiry: number;
 }
 export interface NoUserInfo {
   user: null;
